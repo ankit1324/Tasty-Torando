@@ -30,23 +30,23 @@ Tasty-Tornado is a web application that allows users to search for restaurants a
 
 ## HOME
 
-![HOME](/___IMAGES__\HOME.png)
+![HOME](/___IMAGES__/HOME.png)
 
 ## OFFERS
 
-![OFFERS](/___IMAGES__\OFFER.png)
+![OFFERS](/___IMAGES__/OFFER.png)
 
 ## MENU
 
-![MENU](/___IMAGES__\MENU.png)
+![MENU](/___IMAGES__/MENU.png)
 
 ## ITEMS
 
-![ITEMS](/___IMAGES__\ITEMS.png)
+![ITEMS](/___IMAGES__/ITEMS.png)
 
 ## CART
 
-![CART](/___IMAGES__\CART.png)
+![CART](/___IMAGES__/CART.png)
 
 ## Getting Started
 
