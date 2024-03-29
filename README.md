@@ -1,108 +1,77 @@
-![Setting up Testing](/EP13_TESTING\theory.png)
+# TASTY TORNADO
 
-# Assignment 13 - Time for the test
+Check out the LIVE DEMO [here](https://tasty-torando-ten.vercel.app/)!
 
-## What are different types for testing?
+Tasty-Tornado is a web application that allows users to search for restaurants and browse through real-time restaurant information. With FoodSale, users can easily find and order food from a variety of restaurants with using Swiggy Live Api.
 
-There are various types of testing in software development, each serving a specific purpose in ensuring the quality, functionality, and reliability of the software. Here are some common types:
+![](https://mermaid.ink/img/pako:eNqFk02PmzAQhv8K8rEiBEz4PFRaJSu1UqtK3WoPbXpw7AGsBYyMSZtG-e81dgop2aqcPM_7ztgz2GdEBQOUo14RBTtOSkma1RHvW0d_3958d1art8470YAl48qgJyCSVrwtLZ9CI-7gIIaWTuoc_z_3gyBskq6BzRoohb6_Fx6lFPJaynoMfs_q66GNYcFunZ9Bdz9I0qodKMJr61hSY31g7IvYEqmsZwqNOPMZVUBfxLDE4xhzZ1vrzp2HunYKKZrb9GuW8X6SDORWtAWXDVFctNZzh28KG83ZiqarQS3_3DOHH3NvVvyb2XF3QHnB6dJ6z18bzD9coyHXk23EEe6a_jOc13ZGLmpAN8qZvqvnMWGPVAX6WqJcLxmRL3u0by_aRwYlnk4tRXlB6h5cNHRsvtsL-si4EnKCtb5WoMMzUqdufBYl75WuScc5lyMfZK1xpVTX5-v1KHslV9Vw8Kho1j1nlW6jOmbxOsZxSnAIcRKSKAwZPQRZWuBNULDEDzBBl4uLOtJ-FUKfSskBTDhu8hPlWeCl0SZIMj9M_CiJMxedUB5hL8abTZLEaZQEoY91iV8m3_fSME5T7Ps4w2mSZamLwDT30T5w884vvwETK0Ao?type=png)]
 
-- Unit Testing: Testing individual components or units of the software to ensure they function correctly in isolation. It's usually automated and focuses on small, specific parts of the code.
+## Features
 
-- Integration Testing: Verifying the interaction between different components or modules of the software to ensure they work together as expected.
+- Utilization of Swiggy's live API data to fetch real-time restaurant information
+- Dynamic search bar with auto-suggestion and debouncing techniques for a smooth user experience
+- Infinite scrolling for improved performance and seamless browsing of restaurant listings
+- Conditional rendering and caching strategies for enhanced user experience
+- Backend server developed using Node.js and Express.js to handle API requests and interact with the Swiggy API
+- Shopping cart feature implemented using Redux Toolkit
+- Shimmer UI, lazy loading, and dynamic routing for enhanced performance and seamless navigation
 
-- System Testing: Testing the entire system as a whole to verify that it meets the specified requirements. This includes functional and non-functional testing to assess the system's behavior under various conditions.
+## Tech Stack
 
-- Acceptance Testing: Evaluating whether the software meets the acceptance criteria and satisfies the stakeholders' requirements. It can include User Acceptance Testing (UAT) where end-users validate the software against their needs.
+- React: JavaScript library for building user interfaces
+- Redux Toolkit: Official, opinionated, batteries-included toolset for efficient Redux development
+- React Router: Declarative routing for React
+- Swiggy API: Provides real-time restaurant information and data
+- Node.js: JavaScript runtime environment for server-side development
+- Express.js: Web application framework for Node.js
+- Tailwind CSS: A utility-first CSS framework for rapid UI development
 
-- Regression Testing: Re-testing previously tested features to ensure that recent changes haven't introduced new defects or caused existing functionality to break.
+> # IMAGES
 
-- Performance Testing: Assessing the software's performance characteristics such as speed, responsiveness, and scalability under various load conditions.
+## HOME
 
-- Security Testing: Identifying vulnerabilities and weaknesses in the software's security measures to ensure data integrity, confidentiality, and availability.
+![HOME](___IMAGES__\HOME.png)
 
-- Usability Testing: Evaluating the software's user interface and overall user experience to ensure it's intuitive, easy to use, and meets user expectations.
+## OFFERS
 
-- Compatibility Testing: Checking the software's compatibility with different operating systems, browsers, devices, and environments to ensure consistent behavior across platforms.
+![OFFERS](___IMAGES__\OFFER.png)
 
-- Load Testing: Evaluating the software's behavior under normal and peak load conditions to ensure it can handle the expected number of users and transactions without performance degradation or system failure.
+## MENU
 
-- Stress Testing: Subjecting the software to extreme conditions beyond its normal operational capacity to identify its breaking point and understand how it behaves under stress.
+![MENU](___IMAGES__\MENU.png)
 
-- Exploratory Testing: Ad-hoc testing approach where testers explore the software's functionality without predefined test cases, focusing on uncovering defects and issues through real-time exploration.
+## ITEMS
 
-These are just some of the common types of testing used in software development, and the specific types employed can vary depending on the project's requirements, complexity, and constraints.
+![ITEMS](___IMAGES__\ITEMS.png)
 
-## What is Enzyme?
+## CART
 
-Enzyme is a JavaScript testing utility for React that makes it easier to assert, manipulate, and traverse React components' output. It provides a set of functions to test React components' behavior and state changes in isolation from the rest of the application. Enzyme is often used in combination with testing frameworks like Jest, Mocha, or Jasmine.
+![CART](___IMAGES__\CART.png)
 
-> Key features of Enzyme include:
+## Getting Started
 
-- Shallow Rendering: Enzyme's shallow() function allows you to render a component without rendering its child components, which makes it useful for testing the component's behavior in isolation.
+### Installation
 
-- Full DOM Rendering: Enzyme's mount() function renders the full DOM, including child components, enabling you to test the component's interaction with its children and the DOM APIs.
+1. Clone the repository:
 
-- Static Rendering: Enzyme's render() function renders the component to a static HTML, which can be useful for snapshot testing or testing components that do not rely on lifecycle methods.
+   ```bash
+   git clone https://github.com/ankit1324/Tasty-Torando.git
+   ```
 
-- API for Component Traversal and Manipulation: Enzyme provides a rich set of APIs for traversing and interacting with the rendered components, including finding elements by CSS selectors, simulating user events, and inspecting component props and state.
+2. Install necessary libraries
 
-- Snapshot Testing Support: Enzyme integrates seamlessly with Jest and other snapshot testing libraries, allowing you to easily capture and compare component snapshots to detect unintended changes.
+   ```bash
+   npm install
+   ```
 
-Overall, Enzyme simplifies the process of testing React components by providing a flexible and intuitive API for rendering, traversing, and interacting with components, helping developers write robust and reliable tests for their React applications.
+3. Run the Project
 
-## What is Enzyme?
+   ```bash
+   npm start
+   ```
 
-Enzyme is a JavaScript testing utility for React that makes it easier to assert, manipulate, and traverse React components' output. It provides a set of functions to test React components' behavior and state changes in isolation from the rest of the application. Enzyme is often used in combination with testing frameworks like Jest, Mocha, or Jasmine.
+## Special Thanks
 
-> Key features of Enzyme include:
+@akshaymarch7 [GITHUB](https://github.com/akshaymarch7) for Namaste React Live Course
 
-- Shallow Rendering: Enzyme's shallow() function allows you to render a component without rendering its child components, which makes it useful for testing the component's behavior in isolation.
-
-- Full DOM Rendering: Enzyme's mount() function renders the full DOM, including child components, enabling you to test the component's interaction with its children and the DOM APIs.
-
-- Static Rendering: Enzyme's render() function renders the component to a static HTML, which can be useful for snapshot testing or testing components that do not rely on lifecycle methods.
-
-- API for Component Traversal and Manipulation: Enzyme provides a rich set of APIs for traversing and interacting with the rendered components, including finding elements by CSS selectors, simulating user events, and inspecting component props and state.
-
-- Snapshot Testing Support: Enzyme integrates seamlessly with Jest and other snapshot testing libraries, allowing you to easily capture and compare component snapshots to detect unintended changes.
-
-Overall, Enzyme simplifies the process of testing React components by providing a flexible and intuitive API for rendering, traversing, and interacting with components, helping developers write robust and reliable tests for their React applications.
-
-## Enzyme vs React Testing Library
-
-Enzyme and React Testing Library are both popular choices for testing React applications, but they have different philosophies and approaches to testing.
-
-- Enzyme:
-
-Enzyme focuses on providing a set of utilities for asserting, manipulating, and traversing React components' output. It offers shallow rendering, full DOM rendering, and static rendering, giving developers flexibility in how they test their components.
-
-Enzyme encourages a more implementation-centric approach to testing, where developers have direct access to component internals such as props, state, and lifecycle methods. This can make it easier to write tests targeting specific implementation details.
-
-Enzyme is often preferred by developers who want fine-grained control over their tests and need to test complex interactions between components.
-
-- React Testing Library:
-
-React Testing Library takes a more user-centric approach to testing by focusing on testing components as users would interact with them. It encourages writing tests that resemble how users interact with the application, promoting better test coverage and more robust tests.
-React Testing Library discourages direct access to component internals and encourages testing components based on their public API and user behavior. This helps ensure that tests are more resilient to implementation changes and provide better guarantees about the component's behavior.
-
-React Testing Library is often preferred for its simplicity, ease of use, and focus on writing tests that are more maintainable and less brittle over time.
-
-In summary, the choice between Enzyme and React Testing Library depends on your testing philosophy, preferences, and the specific needs of your project. If you prefer a more implementation-centric approach with fine-grained control over your tests, Enzyme might be a better fit. However, if you value writing tests that resemble user interactions and are more resilient to changes, React Testing Library is worth considering. Additionally, some projects may choose to use both libraries in combination to leverage their respective strengths.
-
-## What is Jest and why do we use it?
-
-Jest is a popular JavaScript testing framework developed by Facebook. It is widely used for testing JavaScript code, including React applications, Node.js applications, and other JavaScript libraries and frameworks. Jest is designed to be easy to set up, configure, and use, making it a preferred choice for many developers and teams. Here's why Jest is commonly used:
-
-- Ease of Use: Jest provides a simple and intuitive API for writing tests, making it easy for developers to get started with testing their code. It comes with built-in matchers for common assertions, making it convenient to write expressive and readable test cases.
-
-- Zero Configuration: Jest is designed to work out of the box with minimal configuration. It comes with sensible defaults, such as automatically finding and running test files with names ending in .test.js or .spec.js, which reduces the overhead of setting up and maintaining test environments.
-
-- Fast and Parallel Execution: Jest is optimized for speed and can run tests in parallel, which helps reduce the overall test execution time, especially for large test suites. It also employs various optimizations, such as intelligent test file caching and selective test execution, to further improve performance.
-
-- Mocking and Spying: Jest provides built-in support for mocking and spying on functions, modules, and objects, making it easy to isolate and test individual components or modules in isolation. This is particularly useful for unit testing and integration testing scenarios.
-
-- Snapshot Testing: Jest includes built-in support for snapshot testing, a technique for capturing and comparing component snapshots to detect unintended changes. Snapshot testing is especially useful for testing UI components and ensuring they render consistently across different states and updates.
-
-- Code Coverage Reporting: Jest comes with built-in support for code coverage reporting, which helps developers measure the effectiveness of their tests by identifying which parts of the codebase are covered by tests and which are not. This encourages better test coverage and helps identify areas for improvement.
-
-Overall, Jest is widely used because of its ease of use, powerful features, and robust testing capabilities, making it a valuable tool for ensuring the quality, reliability, and maintainability of JavaScript codebases.
+@chetannada [GITHUB](https://github.com/chetannada) for providing Swiggy Api alternative with CORS support.
