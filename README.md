@@ -30,23 +30,23 @@ Tasty-Tornado is a web application that allows users to search for restaurants a
 
 ## HOME
 
-![HOME](/___IMAGES__/HOME.png)
+![HOME](https://github.com/ankit1324/Tasty-Torando/blob/main/___IMAGES__/HOME.png?raw=true)
 
 ## OFFERS
 
-![OFFERS](/___IMAGES__/OFFER.png)
+![OFFERS](https://github.com/ankit1324/Tasty-Torando/blob/main/___IMAGES__/OFFER.png?raw=true)
 
 ## MENU
 
-![MENU](/___IMAGES__/MENU.png)
+![MENU](https://github.com/ankit1324/Tasty-Torando/blob/main/___IMAGES__/MENU.png?raw=true)
 
 ## ITEMS
 
-![ITEMS](/___IMAGES__/ITEMS.png)
+![ITEMS](https://github.com/ankit1324/Tasty-Torando/blob/main/___IMAGES__/ITEMS.png?raw=true)
 
 ## CART
 
-![CART](/___IMAGES__/CART.png)
+![CART](https://github.com/ankit1324/Tasty-Torando/blob/main/___IMAGES__/CART.png?raw=true)
 
 ## Getting Started
 
