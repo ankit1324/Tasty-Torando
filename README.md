@@ -4,7 +4,7 @@ Check out the LIVE DEMO [here](https://tasty-torando-ten.vercel.app/)!
 
 Tasty-Tornado is a web application that allows users to search for restaurants and browse through real-time restaurant information. With FoodSale, users can easily find and order food from a variety of restaurants with using Swiggy Live Api.
 
-![Food](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVsZ2k1c3I3dHBvM2htNHFvZnRqdG9hN2Q5bjJiNWZnNmVyaXJ1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1zkrF3l0RfgapqdySj/giphy.gif)
+![Food](https://64.media.tumblr.com/tumblr_lddevyn9ro1qfw3mwo1_500.gifv)
 
 ## DataFlow
 
